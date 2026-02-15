@@ -1447,6 +1447,72 @@ span,
 
 .form-group .textarea-wrapper.outline textarea:is(:hover, :focus, :focus-within, :focus-visible) { border-color: var(--on-background); }
 
+.form-group .select-wrapper {
+    position: relative;
+    border-radius: var(--radius-medium);
+    background-color: var(--surface);
+    max-width: 250px;
+}
+
+.form-group .select-wrapper .icon-select,
+.form-group .select-wrapper .arrow-select {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    display: grid;
+    place-items: center;
+}
+
+.form-group .select-wrapper .icon-select { right: 0; }
+
+html[dir="ltr"] .form-group .select-wrapper .icon-select {
+    left: 0;
+    right: auto;
+}
+
+.form-group .select-wrapper .arrow-select { left: 0; }
+
+html[dir="ltr"] .form-group .select-wrapper .arrow-select {
+    right: 0;
+    left: auto;
+}
+
+.form-group .select-wrapper select {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-inline: var(--spacing-4);
+}
+
+.form-group .select-wrapper.medium select {
+    min-height: var(--height-medium);
+    max-height: var(--height-medium);
+}
+
+.form-group .select-wrapper.medium .icon-select {
+    min-width: var(--width-medium);
+    max-width: var(--width-medium);
+    min-height: var(--height-medium);
+    max-height: var(--height-medium);
+}
+
+.form-group .select-wrapper.medium .arrow-select {
+    min-width: var(--width-medium);
+    max-width: var(--width-medium);
+    min-height: var(--height-medium);
+    max-height: var(--height-medium);
+}
+
+.form-group .select-wrapper.medium:has(.icon-select) select { padding-inline-start: var(--width-medium); }
+
+.form-group .select-wrapper.medium:has(.arrow-select) select { padding-inline-end: var(--width-medium); }
+
+.form-group .select-wrapper.elevated {
+    box-shadow: var(--shadow-05);
+    --state-layer-bg: var(--on-background);
+}
+
 /**
  * Toolbars
  */
@@ -1764,6 +1830,11 @@ html[dir="ltr"] .hero .grid-2-base .hero-content::before {
 }
 
 /**
+ * Subjects
+ */
+.subjects .figure { height: 150px; }
+
+/**
  * About Us
  */
 .about-us .grid-2-base {
@@ -1841,6 +1912,8 @@ html[dir="ltr"] .about-us .grid-2-base .img-group .wrapper-item {
 /**
  * Banners
  */
+.banner { padding-block-end: 0; }
+
 .banner .title-sec {
     margin-block-end: 0;
     position: relative;
