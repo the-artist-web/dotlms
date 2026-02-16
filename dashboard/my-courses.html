@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- canonical -->
+    <link rel="canonical" href="URL This Page" />
+
+    <!-- favicons -->
+    <link rel="icon" href="../src/assets/images/favicon.png" />
+    <link rel="icon shortcut" href="../src/assets/images/favicon.png" />
+
+    <!-- meta tags -->
+    <title>Dashboard | My Courses | Lms</title>
+    <meta name="title" content="Dashboard | My Courses | Lms" />
+    <meta name="description" content="Description This Page" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- open graph -->
+    <meta property="og:title" content="Dashboard | My Courses | Lms" />
+    <meta property="og:description" content="Description This Page" />
+    <meta property="og:url" content="URL This Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../src/assets/images/logo.png" />
+    <meta property="og:image:alt" content="Lms" />
+    <meta property="og:site_name" content="Lms" />
+    <meta property="og:locale" content="ar" />
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dashboard | My Courses | Lms" />
+    <meta name="twitter:description" content="Description This Page" />
+    <meta name="twitter:image" content="../src/assets/images/logo.png" />
+    <meta name="twitter:image:alt" content="Lms" />
+    <meta name="twitter:url" content="URL This Page" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+    
+    <!-- custom aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+    <!-- custom bootstrap link -->
+    <link rel="stylesheet" href="../src/assets/bootstrap/bootstrap.min.css" />
+    <script src="../src/assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="../src/assets/css/styles.css" />
+
+    <!-- custom js link -->
+    <script src="../src/js/aos.js" type="module"></script>
+    <script src="../src/js/app.js" type="module"></script>
+    <script src="../src/js/chart.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body class="dashboard">
+
+    <!-- Header -->
+    <header class="header" data-fixed-scrolling>
+
+        <div class="container container-xl">
+            <a href="../dashboard/index.html">
+                <h4 class="text-title-large">كورساتي</h4>
+            </a>
+
+            <div class="wrapper-item">
+                <div class="dropdown">
+                    <span data-bs-toggle="dropdown">
+                        <button type="button" class="avatar medium" data-bs-toggle="tooltip" data-bs-title="Mr. Ahmed Hassan" data-bs-placement="bottom">
+                            <!-- <img src="" alt="username" loading="lazy" class="img-avatar img-cover" /> -->
+        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+                        </button>
+                    </span>
+    
+                    <ul class="dropdown-menu dropdown-menu-end medium custom-scrollbar">
+    
+                        <li>
+                            <a href="../dashboard/profile/index.html" class="dropdown-item">
+                                <div class="avatar medium">
+                                    <!-- <img src="" alt="username" loading="lazy" class="img-avatar img-cover" /> -->
+    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+                                </div>
+    
+                                <div class="wrapper-content">
+                                    <p class="text-on-background line-clamp line-clamp-1 text-body-medium">Mr. Ahmed Hassan</p>
+    
+                                    <p class="text-on-background-variant line-clamp line-clamp-1 text-body-medium">@mr.ahmedhassan</p>
+                                </div>
+    
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+    
+                        <li class="separator x"></li>
+
+                        <li>
+                            <a href="../dashboard/index.html" class="dropdown-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-dashboard"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M13.45 11.55l2.05 -2.05" /><path d="M6.4 20a9 9 0 1 1 11.2 0l-11.2 0" /></svg>
+    
+                                <p class="text-body-medium">لوحة التحكم</p>
+    
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="../dashboard/profile/index.html" class="dropdown-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+    
+                                <p class="text-body-medium">حسابي</p>
+    
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="../dashboard/my-courses.html" class="dropdown-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-parsinta"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3a9 9 0 1 0 9 9" /><path d="M21 12a9 9 0 0 0 -9 -9" opacity=".5" /><path d="M10 9v6l5 -3l-5 -3" /></svg>
+    
+                                <p class="text-body-medium">كورساتي</p>
+    
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="../dashboard/profile/edit-profile.html" class="dropdown-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-settings"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /></svg>
+    
+                                <p class="text-body-medium">تعديل حسابي</p>
+    
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+    
+                        <li class="separator x"></li>
+    
+                        <li>
+                            <form action="" method="POST">
+                                <button type="submit" class="dropdown-item error">
+                                    <div class="arrow-dir">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-logout-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 8v-2a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-2" /><path d="M15 12h-12l3 -3" /><path d="M6 15l-3 -3" /></svg>
+                                    </div>
+    
+                                    <p class="text-body-medium">تسجيل الخروج</p>
+    
+                                    <div class="state-layer"></div>
+                                </button>
+                            </form>
+                        </li>
+    
+                    </ul>
+                </div>
+
+                <span data-bs-toggle="offcanvas" data-bs-target="#navigation-drawer">
+                    <button type="button" class="icon-btn text medium mobile" data-bs-toggle="tooltip" data-bs-title="فتح القائمة" data-bs-placement="bottom">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
+        
+                        <div class="state-layer"></div>
+                    </button>
+                </span>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Navigation Drawer -->
+    <aside class="offcanvas offcanvas-end main-navigation-drawer" id="navigation-drawer">
+        <div class="offcanvas-header">
+            <a href="../dashboard/index.html" class="logo small">
+                <img src="../src/assets/images/logo.png" alt="Lms" loading="lazy" class="img-logo img-cover" />
+            </a>
+
+            <span class="mobile" data-bs-dismiss="offcanvas">
+                <button type="button" class="icon-btn text small" data-bs-toggle="tooltip" data-bs-title="اغلاق Menu" data-bs-placement="bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+    
+                    <div class="state-layer"></div>
+                </button>
+            </span>
+        </div>
+
+        <ul class="offcanvas-list">
+
+            <li>
+                <a href="../dashboard/index.html" class="offcanvas-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-dashboard"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M13.45 11.55l2.05 -2.05" /><path d="M6.4 20a9 9 0 1 1 11.2 0l-11.2 0" /></svg>
+
+                    <p class="text-body-large">الرئيسية</p>
+
+                    <div class="state-layer"></div>
+                </a>
+            </li>
+
+            <li>
+                <a href="../dashboard/my-courses.html" class="offcanvas-item active">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-parsinta"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3a9 9 0 1 0 9 9" /><path d="M21 12a9 9 0 0 0 -9 -9" opacity=".5" /><path d="M10 9v6l5 -3l-5 -3" /></svg>
+
+                    <p class="text-body-large">كورساتي</p>
+
+                    <div class="state-layer"></div>
+                </a>
+            </li>
+
+            <li>
+                <a href="../dashboard/exams/index.html" class="offcanvas-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-exposure"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3.6 20.4l16.8 -16.8" /><path d="M6 8h4m-2 -2v4" /><path d="M14 16h4" /><path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -14" /></svg>
+
+                    <p class="text-body-large">اختباراتي</p>
+
+                    <div class="state-layer"></div>
+                </a>
+            </li>
+
+            <li>
+                <a href="../dashboard/invoices/index.html" class="offcanvas-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-receipt-dollar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" /><path d="M14.8 8a2 2 0 0 0 -1.8 -1h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1 -1.8 -1" /><path d="M12 6v10" /></svg>
+
+                    <p class="text-body-large">فواتيري</p>
+
+                    <div class="state-layer"></div>
+                </a>
+            </li>
+
+            <li>
+                <button type="button" class="offcanvas-item" data-bs-toggle="collapse" data-bs-target="#collapseExample">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+
+                    <p class="text-body-large">حسابي</p>
+
+                    <div class="state-layer"></div>
+                </button>
+            </li>
+
+            <li class="separator x"></li>
+
+            <li>
+                <a href="../dashboard/invoices/index.html" class="offcanvas-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-settings"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /></svg>
+
+                    <p class="text-body-large">تعديل حسابي</p>
+
+                    <div class="state-layer"></div>
+                </a>
+            </li>
+
+            <li>
+                <form action="" method="POST">
+                    <button type="submit" class="offcanvas-item error">
+                        <div class="arrow-dir">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-logout"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" /><path d="M9 12h12l-3 -3" /><path d="M18 15l3 -3" /></svg>
+                        </div>
+    
+                        <p class="text-body-large">تسجيل الخروج</p>
+    
+                        <div class="state-layer"></div>
+                    </button>
+                </form>
+            </li>
+
+        </ul>
+
+        <div class="offcanvas-footer">
+            <p class="text-body-medium text-on-background-variant opacity-75">جميع الحقوق محفوظة لشركة GoMaster لعام 2020.</p>
+        </div>
+    </aside>
+    
+    <main class="main">
+
+        <article>
+
+            <section class="courses section">
+
+                <div class="container container-xl">
+
+                    <div class="mb-5">
+
+                        <div class="form-group">
+
+                            <div class="select-wrapper outline medium">
+                                <div class="icon-select">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
+                                </div>
+
+                                <select name="grade" class="text-body-large">
+                                    <option value="">المرحلة الأولي</option>
+                                    <option value="">المرحلة الثانية</option>
+                                    <option value="">المرحلة الثالثة</option>
+                                    <option value="">المرحلة الرابعة</option>
+                                    <option value="">المرحلة الخامسة</option>
+                                </select>
+
+                                <div class="arrow-select">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 9l6 6l6 -6" /></svg>
+                                </div>
+
+                                <div class="state-layer"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="grid-3-base">
+
+                        <a href="../../pages/courses/show.html" target="_blank" class="card outline">
+                            <div class="figure">
+                                <img src="https://img.freepik.com/free-photo/distance-learning-online-education-webpage_53876-125084.jpg?t=st=1771079227~exp=1771082827~hmac=af69ef8b6183ce812745bf71e690d74477a987ce209bdadedbf05ea38cd2367a&w=1480" alt="img card" loading="lazy" class="img-card img-cover" />
+
+                                <div class="icon-big">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-photo"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.813 11.612c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.986 4.986l.094 .083a1 1 0 0 0 1.403 -1.403l-.083 -.094l-1.292 -1.293l.292 -.293l.106 -.095c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.674 4.675a4 4 0 0 1 -3.775 3.599l-.206 .005h-12a4 4 0 0 1 -3.98 -3.603l6.687 -6.69l.106 -.095zm9.187 -9.612a4 4 0 0 1 3.995 3.8l.005 .2v9.585l-3.293 -3.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-.307 .306l-2.293 -2.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-5.307 5.306v-9.585a4 4 0 0 1 3.8 -3.995l.2 -.005h12zm-2.99 5l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" /></svg>
+                                </div>
+
+                                <div class="wrapper-between">
+                                    <div class="btn filled extra-small rounded-pill">
+                                        <p class="text-body-small">الفصل الدراسي 10</p>
+                                    </div>
+
+                                    <div class="btn white extra-small rounded-pill">
+                                        <p class="text-body-small">419.00ج.م</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="wrapper-block">
+                                    <h4 class="text-title-large line-clamp line-clamp-1">الرياضيات المتقدمة</h4>
+
+                                    <p class="text-body-medium text-on-background-variant line-clamp line-clamp-2">فهم قوانين الحركة والطاقة والأمواج من خلال التجارب العملية والتطبيقات الحياتية، مع تحليل النتائج رياضيًا وربطها بالمفاهيم الفيزيائية الأساسية مثل القوة، الزخم، حفظ الطاقة، وانتقال الموجات في الأوساط المختلفة.</p>
+                                </div>
+
+                                <div class="wrapper text-on-background-variant">
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
+
+                                        <p class="text-body-medium">16 درس</p>
+                                    </div>
+
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-10"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12l-3 -2" /><path d="M12 7v5" /></svg>
+
+                                        <p class="text-body-medium">70 دقيقة</p>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn outline primary medium w-full">
+                                    <p class="text-body-large">الدخول للكورس</p>
+
+                                    <div class="state-layer"></div>
+                                </button>
+                            </div>
+                        </a>
+
+                        <a href="../../pages/courses/show.html" target="_blank" class="card outline">
+                            <div class="figure">
+                                <img src="https://img.freepik.com/free-photo/distance-learning-online-education-webpage_53876-125084.jpg?t=st=1771079227~exp=1771082827~hmac=af69ef8b6183ce812745bf71e690d74477a987ce209bdadedbf05ea38cd2367a&w=1480" alt="img card" loading="lazy" class="img-card img-cover" />
+
+                                <div class="icon-big">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-photo"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.813 11.612c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.986 4.986l.094 .083a1 1 0 0 0 1.403 -1.403l-.083 -.094l-1.292 -1.293l.292 -.293l.106 -.095c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.674 4.675a4 4 0 0 1 -3.775 3.599l-.206 .005h-12a4 4 0 0 1 -3.98 -3.603l6.687 -6.69l.106 -.095zm9.187 -9.612a4 4 0 0 1 3.995 3.8l.005 .2v9.585l-3.293 -3.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-.307 .306l-2.293 -2.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-5.307 5.306v-9.585a4 4 0 0 1 3.8 -3.995l.2 -.005h12zm-2.99 5l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" /></svg>
+                                </div>
+
+                                <div class="wrapper-between">
+                                    <div class="btn filled extra-small rounded-pill">
+                                        <p class="text-body-small">الفصل الدراسي 10</p>
+                                    </div>
+
+                                    <div class="btn white extra-small rounded-pill">
+                                        <p class="text-body-small">419.00ج.م</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="wrapper-block">
+                                    <h4 class="text-title-large line-clamp line-clamp-1">الرياضيات المتقدمة</h4>
+
+                                    <p class="text-body-medium text-on-background-variant line-clamp line-clamp-2">فهم قوانين الحركة والطاقة والأمواج من خلال التجارب العملية والتطبيقات الحياتية، مع تحليل النتائج رياضيًا وربطها بالمفاهيم الفيزيائية الأساسية مثل القوة، الزخم، حفظ الطاقة، وانتقال الموجات في الأوساط المختلفة.</p>
+                                </div>
+
+                                <div class="wrapper text-on-background-variant">
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
+
+                                        <p class="text-body-medium">16 درس</p>
+                                    </div>
+
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-10"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12l-3 -2" /><path d="M12 7v5" /></svg>
+
+                                        <p class="text-body-medium">70 دقيقة</p>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn outline primary medium w-full">
+                                    <p class="text-body-large">الدخول للكورس</p>
+
+                                    <div class="state-layer"></div>
+                                </button>
+                            </div>
+                        </a>
+
+                        <a href="../../pages/courses/show.html" target="_blank" class="card outline">
+                            <div class="figure">
+                                <img src="https://img.freepik.com/free-photo/distance-learning-online-education-webpage_53876-125084.jpg?t=st=1771079227~exp=1771082827~hmac=af69ef8b6183ce812745bf71e690d74477a987ce209bdadedbf05ea38cd2367a&w=1480" alt="img card" loading="lazy" class="img-card img-cover" />
+
+                                <div class="icon-big">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-photo"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.813 11.612c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.986 4.986l.094 .083a1 1 0 0 0 1.403 -1.403l-.083 -.094l-1.292 -1.293l.292 -.293l.106 -.095c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.674 4.675a4 4 0 0 1 -3.775 3.599l-.206 .005h-12a4 4 0 0 1 -3.98 -3.603l6.687 -6.69l.106 -.095zm9.187 -9.612a4 4 0 0 1 3.995 3.8l.005 .2v9.585l-3.293 -3.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-.307 .306l-2.293 -2.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-5.307 5.306v-9.585a4 4 0 0 1 3.8 -3.995l.2 -.005h12zm-2.99 5l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" /></svg>
+                                </div>
+
+                                <div class="wrapper-between">
+                                    <div class="btn filled extra-small rounded-pill">
+                                        <p class="text-body-small">الفصل الدراسي 10</p>
+                                    </div>
+
+                                    <div class="btn white extra-small rounded-pill">
+                                        <p class="text-body-small">419.00ج.م</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="wrapper-block">
+                                    <h4 class="text-title-large line-clamp line-clamp-1">الرياضيات المتقدمة</h4>
+
+                                    <p class="text-body-medium text-on-background-variant line-clamp line-clamp-2">فهم قوانين الحركة والطاقة والأمواج من خلال التجارب العملية والتطبيقات الحياتية، مع تحليل النتائج رياضيًا وربطها بالمفاهيم الفيزيائية الأساسية مثل القوة، الزخم، حفظ الطاقة، وانتقال الموجات في الأوساط المختلفة.</p>
+                                </div>
+
+                                <div class="wrapper text-on-background-variant">
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
+
+                                        <p class="text-body-medium">16 درس</p>
+                                    </div>
+
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-10"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12l-3 -2" /><path d="M12 7v5" /></svg>
+
+                                        <p class="text-body-medium">70 دقيقة</p>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn outline primary medium w-full">
+                                    <p class="text-body-large">الدخول للكورس</p>
+
+                                    <div class="state-layer"></div>
+                                </button>
+                            </div>
+                        </a>
+
+                        <a href="../../pages/courses/show.html" target="_blank" class="card outline">
+                            <div class="figure">
+                                <img src="https://img.freepik.com/free-photo/distance-learning-online-education-webpage_53876-125084.jpg?t=st=1771079227~exp=1771082827~hmac=af69ef8b6183ce812745bf71e690d74477a987ce209bdadedbf05ea38cd2367a&w=1480" alt="img card" loading="lazy" class="img-card img-cover" />
+
+                                <div class="icon-big">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-photo"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.813 11.612c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.986 4.986l.094 .083a1 1 0 0 0 1.403 -1.403l-.083 -.094l-1.292 -1.293l.292 -.293l.106 -.095c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.674 4.675a4 4 0 0 1 -3.775 3.599l-.206 .005h-12a4 4 0 0 1 -3.98 -3.603l6.687 -6.69l.106 -.095zm9.187 -9.612a4 4 0 0 1 3.995 3.8l.005 .2v9.585l-3.293 -3.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-.307 .306l-2.293 -2.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-5.307 5.306v-9.585a4 4 0 0 1 3.8 -3.995l.2 -.005h12zm-2.99 5l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" /></svg>
+                                </div>
+
+                                <div class="wrapper-between">
+                                    <div class="btn filled extra-small rounded-pill">
+                                        <p class="text-body-small">الفصل الدراسي 10</p>
+                                    </div>
+
+                                    <div class="btn white extra-small rounded-pill">
+                                        <p class="text-body-small">419.00ج.م</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="wrapper-block">
+                                    <h4 class="text-title-large line-clamp line-clamp-1">الرياضيات المتقدمة</h4>
+
+                                    <p class="text-body-medium text-on-background-variant line-clamp line-clamp-2">فهم قوانين الحركة والطاقة والأمواج من خلال التجارب العملية والتطبيقات الحياتية، مع تحليل النتائج رياضيًا وربطها بالمفاهيم الفيزيائية الأساسية مثل القوة، الزخم، حفظ الطاقة، وانتقال الموجات في الأوساط المختلفة.</p>
+                                </div>
+
+                                <div class="wrapper text-on-background-variant">
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
+
+                                        <p class="text-body-medium">16 درس</p>
+                                    </div>
+
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-10"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12l-3 -2" /><path d="M12 7v5" /></svg>
+
+                                        <p class="text-body-medium">70 دقيقة</p>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn outline primary medium w-full">
+                                    <p class="text-body-large">الدخول للكورس</p>
+
+                                    <div class="state-layer"></div>
+                                </button>
+                            </div>
+                        </a>
+
+                        <a href="../../pages/courses/show.html" target="_blank" class="card outline">
+                            <div class="figure">
+                                <img src="https://img.freepik.com/free-photo/distance-learning-online-education-webpage_53876-125084.jpg?t=st=1771079227~exp=1771082827~hmac=af69ef8b6183ce812745bf71e690d74477a987ce209bdadedbf05ea38cd2367a&w=1480" alt="img card" loading="lazy" class="img-card img-cover" />
+
+                                <div class="icon-big">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-photo"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.813 11.612c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.986 4.986l.094 .083a1 1 0 0 0 1.403 -1.403l-.083 -.094l-1.292 -1.293l.292 -.293l.106 -.095c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.674 4.675a4 4 0 0 1 -3.775 3.599l-.206 .005h-12a4 4 0 0 1 -3.98 -3.603l6.687 -6.69l.106 -.095zm9.187 -9.612a4 4 0 0 1 3.995 3.8l.005 .2v9.585l-3.293 -3.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-.307 .306l-2.293 -2.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-5.307 5.306v-9.585a4 4 0 0 1 3.8 -3.995l.2 -.005h12zm-2.99 5l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" /></svg>
+                                </div>
+
+                                <div class="wrapper-between">
+                                    <div class="btn filled extra-small rounded-pill">
+                                        <p class="text-body-small">الفصل الدراسي 10</p>
+                                    </div>
+
+                                    <div class="btn white extra-small rounded-pill">
+                                        <p class="text-body-small">419.00ج.م</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="wrapper-block">
+                                    <h4 class="text-title-large line-clamp line-clamp-1">الرياضيات المتقدمة</h4>
+
+                                    <p class="text-body-medium text-on-background-variant line-clamp line-clamp-2">فهم قوانين الحركة والطاقة والأمواج من خلال التجارب العملية والتطبيقات الحياتية، مع تحليل النتائج رياضيًا وربطها بالمفاهيم الفيزيائية الأساسية مثل القوة، الزخم، حفظ الطاقة، وانتقال الموجات في الأوساط المختلفة.</p>
+                                </div>
+
+                                <div class="wrapper text-on-background-variant">
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
+
+                                        <p class="text-body-medium">16 درس</p>
+                                    </div>
+
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-10"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12l-3 -2" /><path d="M12 7v5" /></svg>
+
+                                        <p class="text-body-medium">70 دقيقة</p>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn outline primary medium w-full">
+                                    <p class="text-body-large">الدخول للكورس</p>
+
+                                    <div class="state-layer"></div>
+                                </button>
+                            </div>
+                        </a>
+
+                        <a href="../../pages/courses/show.html" target="_blank" class="card outline">
+                            <div class="figure">
+                                <img src="https://img.freepik.com/free-photo/distance-learning-online-education-webpage_53876-125084.jpg?t=st=1771079227~exp=1771082827~hmac=af69ef8b6183ce812745bf71e690d74477a987ce209bdadedbf05ea38cd2367a&w=1480" alt="img card" loading="lazy" class="img-card img-cover" />
+
+                                <div class="icon-big">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-photo"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.813 11.612c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.986 4.986l.094 .083a1 1 0 0 0 1.403 -1.403l-.083 -.094l-1.292 -1.293l.292 -.293l.106 -.095c.457 -.38 .918 -.38 1.386 .011l.108 .098l4.674 4.675a4 4 0 0 1 -3.775 3.599l-.206 .005h-12a4 4 0 0 1 -3.98 -3.603l6.687 -6.69l.106 -.095zm9.187 -9.612a4 4 0 0 1 3.995 3.8l.005 .2v9.585l-3.293 -3.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-.307 .306l-2.293 -2.292l-.15 -.137c-1.256 -1.095 -2.85 -1.097 -4.096 -.017l-.154 .14l-5.307 5.306v-9.585a4 4 0 0 1 3.8 -3.995l.2 -.005h12zm-2.99 5l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" /></svg>
+                                </div>
+
+                                <div class="wrapper-between">
+                                    <div class="btn filled extra-small rounded-pill">
+                                        <p class="text-body-small">الفصل الدراسي 10</p>
+                                    </div>
+
+                                    <div class="btn white extra-small rounded-pill">
+                                        <p class="text-body-small">419.00ج.م</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="wrapper-block">
+                                    <h4 class="text-title-large line-clamp line-clamp-1">الرياضيات المتقدمة</h4>
+
+                                    <p class="text-body-medium text-on-background-variant line-clamp line-clamp-2">فهم قوانين الحركة والطاقة والأمواج من خلال التجارب العملية والتطبيقات الحياتية، مع تحليل النتائج رياضيًا وربطها بالمفاهيم الفيزيائية الأساسية مثل القوة، الزخم، حفظ الطاقة، وانتقال الموجات في الأوساط المختلفة.</p>
+                                </div>
+
+                                <div class="wrapper text-on-background-variant">
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
+
+                                        <p class="text-body-medium">16 درس</p>
+                                    </div>
+
+                                    <div class="flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-10"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12l-3 -2" /><path d="M12 7v5" /></svg>
+
+                                        <p class="text-body-medium">70 دقيقة</p>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn outline primary medium w-full">
+                                    <p class="text-body-large">الدخول للكورس</p>
+
+                                    <div class="state-layer"></div>
+                                </button>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <ul class="pagination">
+
+                        <li>
+                            <a href="#" class="icon-btn tonal medium" data-bs-toggle="tooltip" data-bs-title="السابق" data-bs-placement="bottom">
+                                <div class="arrow-dir">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                                </div>
+
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="icon-btn filled medium">
+                                <p class="text-body-large">1</p>
+
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="icon-btn outline medium">
+                                <p class="text-body-large">2</p>
+
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="icon-btn outline medium">
+                                <p class="text-body-large">3</p>
+
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="icon-btn tonal medium" data-bs-toggle="tooltip" data-bs-title="التالي" data-bs-placement="bottom">
+                                <div class="arrow-dir">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
+                                </div>
+
+                                <div class="state-layer"></div>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                
+            </section>
+
+        </article>
+
+    </main>
+
+</body>
+
+</html>

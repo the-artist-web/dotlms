@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- canonical -->
+    <link rel="canonical" href="URL This Page" />
+
+    <!-- favicons -->
+    <link rel="icon" href="../src/assets/images/favicon.png" />
+    <link rel="icon shortcut" href="../src/assets/images/favicon.png" />
+
+    <!-- meta tags -->
+    <title>Dashboard | Preview Lesson | Lms</title>
+    <meta name="title" content="Dashboard | Preview Lesson | Lms" />
+    <meta name="description" content="Description This Page" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- open graph -->
+    <meta property="og:title" content="Dashboard | Preview Lesson | Lms" />
+    <meta property="og:description" content="Description This Page" />
+    <meta property="og:url" content="URL This Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../src/assets/images/logo.png" />
+    <meta property="og:image:alt" content="Lms" />
+    <meta property="og:site_name" content="Lms" />
+    <meta property="og:locale" content="ar" />
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dashboard | Preview Lesson | Lms" />
+    <meta name="twitter:description" content="Description This Page" />
+    <meta name="twitter:image" content="../src/assets/images/logo.png" />
+    <meta name="twitter:image:alt" content="Lms" />
+    <meta name="twitter:url" content="URL This Page" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+    
+    <!-- custom aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+    <!-- custom bootstrap link -->
+    <link rel="stylesheet" href="../src/assets/bootstrap/bootstrap.min.css" />
+    <script src="../src/assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="../src/assets/css/styles.css" />
+
+    <!-- custom js link -->
+    <script src="../src/js/aos.js" type="module"></script>
+    <script src="../src/js/app.js" type="module"></script>
+    <script src="../src/js/chart.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body class="dashboard">
+
+    <!-- App Bar -->
+    <div class="app-bar" data-fixed-scrolling>
+
+        <div class="container">
+
+            <div class="wrapper flex-nowrap desctop">
+                <a href="../pages/courses/show.html" class="btn text small desctop">
+                    <div class="arrow-dir">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    </div>
+    
+                    <p class="text-body-medium">الرجوع الي الكورس</p>
+    
+                    <div class="state-layer"></div>
+                </a>
+    
+                <div class="separator y"></div>
+
+                <p class="text-body-medium line-clamp line-clamp-1">علم الحركة والحركة</p>
+            </div>
+
+            <div class="flex mobile">
+                <a href="../pages/courses/show.html" class="icon-btn outline small mobile" data-bs-toggle="tooltip" data-bs-title="الرجوع الي الكورس" data-bs-placement="bottom">
+                    <div class="arrow-dir">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    </div>
+
+                    <div class="state-layer"></div>
+                </a>
+
+                <span class="mobile" data-bs-toggle="offcanvas" data-bs-target="#side-sheet-lessons">
+                    <button type="button" class="btn outline small">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-list"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l11 0" /><path d="M9 12l11 0" /><path d="M9 18l11 0" /><path d="M5 6l0 .01" /><path d="M5 12l0 .01" /><path d="M5 18l0 .01" /></svg>
+    
+                        <p class="text-body-medium">الدروس</p>
+    
+                        <div class="state-layer"></div>
+                    </button>
+                </span>
+            </div>
+
+            <div class="flex">
+                <p class="text-body-medium text-on-background-variant">الدرس 2 من 7</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <main class="main">
+
+        <article class="preview-lesson">
+
+            <div class="lesson-content">
+                <iframe src="https://www.youtube.com/embed/Y3o-caU1SKA?si=Gdozp-gazSPWz624" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <div class="container container-xl">
+                    <div class="wrapper-between">
+
+                        <div class="wrapper">
+                            <div class="btn tonal small">
+                                <p class="text-body-medium">فديو الدرس</p>
+                            </div>
+    
+                            <div class="flex text-on-background-variant">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-10"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12l-3 -2" /><path d="M12 7v5" /></svg>
+    
+                                <p class="text-body-medium">50 دقيقة</p>
+                            </div>
+                        </div>
+
+                        <div class="btn tonal success small">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+
+                            <p class="text-body-medium">مكتمل</p>
+                        </div>
+                    </div>
+
+                    <h3 class="text-display-small">علم الحركة والحركة</h3>
+
+                    <ul class="nav nav-tabs" id="lessonDetailTabs">
+                        <li class="nav-item">
+                            <button type="button" class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
+
+                                <p class="text-body-large">ملخص</p>
+
+                                <div class="state-layer"></div>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button type="button" class="nav-link" id="attachments-tab" data-bs-toggle="tab" data-bs-target="#attachments">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-download"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
+
+                                <p class="text-body-large">المرفقات</p>
+
+                                <div class="state-layer"></div>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button type="button" class="nav-link" id="discussion-tab" data-bs-toggle="tab" data-bs-target="#discussion">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-messages"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" /><path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" /></svg>
+
+                                <p class="text-body-large">مناقشات</p>
+
+                                <div class="state-layer"></div>
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="lessonDetailTabs">
+                        <div class="tab-pane fade show active" id="overview">
+
+                            <div class="markdown">
+                                <h2>حول هذا الدرس</h2>
+
+                                <p>
+                                    ابدأ بدراسة الحركة دون التطرق إلى أسبابها.
+                                    تعلّم كيفية وصف <strong>الإزاحة</strong>،
+                                    <strong>السرعة</strong>، و
+                                    <strong>التسارع</strong> باستخدام الرسوم البيانية والمعادلات.
+                                </p>
+
+                                <h3>ماذا ستتعلم</h3>
+
+                                <ul>
+                                    <li>الإزاحة والسرعة والتسارع</li>
+                                    <li>معادلات الحركة</li>
+                                    <li>تحليل الحركة باستخدام الرسوم البيانية</li>
+                                    <li>حركة المقذوفات</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="attachments">
+                            
+                            <ul class="list custom-scrollbar">
+
+                                <li>
+                                    <a href="#" download class="item">
+                                        <div class="icon-btn filled medium">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-download"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large line-clamp line-clamp-1">laravel-starter-kit.zip</p>
+
+                                                <p class="text-body-medium text-on-background-variant">850 KB</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="state-layer"></div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" download class="item">
+                                        <div class="icon-btn filled medium">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-download"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large line-clamp line-clamp-1">laravel-starter-kit.zip</p>
+
+                                                <p class="text-body-medium text-on-background-variant">850 KB</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="state-layer"></div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" download class="item">
+                                        <div class="icon-btn filled medium">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-download"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large line-clamp line-clamp-1">laravel-starter-kit.zip</p>
+
+                                                <p class="text-body-medium text-on-background-variant">850 KB</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="state-layer"></div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" download class="item">
+                                        <div class="icon-btn filled medium">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-download"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large line-clamp line-clamp-1">laravel-starter-kit.zip</p>
+
+                                                <p class="text-body-medium text-on-background-variant">850 KB</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="state-layer"></div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" download class="item">
+                                        <div class="icon-btn filled medium">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-download"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large line-clamp line-clamp-1">laravel-starter-kit.zip</p>
+
+                                                <p class="text-body-medium text-on-background-variant">850 KB</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="state-layer"></div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" download class="item">
+                                        <div class="icon-btn filled medium">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-download"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large line-clamp line-clamp-1">laravel-starter-kit.zip</p>
+
+                                                <p class="text-body-medium text-on-background-variant">850 KB</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="state-layer"></div>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="discussion">
+                            <form action="" method="POST" class="mb-4">
+
+                                <div class="form-group">
+                                    <div class="input-wrapper outline large p-start-0 p-end-0">
+                                        <div class="icon-btn large">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-message-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1" /></svg>
+                                        </div>
+
+                                        <input type="text" placeholder="اكتب تعليقك..." name="comment" value="" class="text-body-large" required />
+
+                                        <button type="submit" class="icon-btn filled large" data-bs-toggle="tooltip" data-bs-title="ارسال" data-bs-placement="bottom">
+                                            <div class="arrow-dir">
+                                                <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotateY(180deg);" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-send"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 14l11 -11" /><path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" /></svg>
+                                            </div>
+
+                                            <div class="state-layer"></div>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                            <ul class="list">
+
+                                <li>
+                                    <div class="item">
+                                        <div class="avatar large">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                            </svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large">
+                                                    <span class="bold">@ahmed_dev</span>
+                                                    <span class="text-on-background-variant">منذ 30 دقيقة</span>
+                                                </p>
+
+                                                <p class="text-on-background-variant text-body-large">
+                                                    الشرح واضح جدًا والتطبيق العملي ساعدني أفهم المفاهيم اللي كانت معقدة بالنسبة لي. من أفضل الكورسات اللي خدتها أونلاين.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="item">
+                                        <div class="avatar large">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                            </svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large">
+                                                    <span class="bold">@sara_ui</span>
+                                                    <span class="text-on-background-variant">منذ ساعة</span>
+                                                </p>
+
+                                                <p class="text-on-background-variant text-body-large">
+                                                    أكثر حاجة عجبتني هي تنظيم المحتوى وتسلسل الدروس. كل درس مبني على اللي قبله بشكل منطقي جدًا.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="item">
+                                        <div class="avatar large">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                            </svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large">
+                                                    <span class="bold">@omar_backend</span>
+                                                    <span class="text-on-background-variant">منذ 3 ساعات</span>
+                                                </p>
+
+                                                <p class="text-on-background-variant text-body-large">
+                                                    الأمثلة العملية كانت قوية جدًا وفعلاً اشتغلت بيها في مشروع حقيقي بعد ما خلصت الكورس.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="item">
+                                        <div class="avatar large">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                            </svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large">
+                                                    <span class="bold">@nour_student</span>
+                                                    <span class="text-on-background-variant">منذ يوم</span>
+                                                </p>
+
+                                                <p class="text-on-background-variant text-body-large">
+                                                    كنت مبتدئة تمامًا، وبعد الكورس بقي عندي فهم قوي للأساسيات. الشرح مناسب جدًا لأي مستوى.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="item">
+                                        <div class="avatar large">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                            </svg>
+                                        </div>
+
+                                        <div class="item-content">
+                                            <div class="wrapper-content">
+                                                <p class="text-body-large">
+                                                    <span class="bold">@karim_fullstack</span>
+                                                    <span class="text-on-background-variant">منذ يومين</span>
+                                                </p>
+
+                                                <p class="text-on-background-variant text-body-large">
+                                                    الدعم والرد على الأسئلة سريع جدًا، وده فرق معايا جدًا أثناء التطبيق العملي للمشاريع.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="offcanvas offcanvas-end side-sheet-lessons" id="side-sheet-lessons">
+                <div class="offcanvas-header mobile">
+                    <h5 class="text-title-medium">الدروس</h5>
+
+                    <span data-bs-dismiss="offcanvas">
+                        <button type="button" class="icon-btn text small" data-bs-toggle="tooltip" data-bs-title="اغلاق Menu" data-bs-placement="bottom">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+            
+                            <div class="state-layer"></div>
+                        </button>
+                    </span>
+                </div>
+
+                <div class="accordion" id="unitsList">
+
+                    <div class="accordion-item">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#unit-1">
+                            <p class="text-body-large">الوحدة الأولي</p>
+
+                            <div class="state-layer"></div>
+                        </button>
+
+                        <ul id="unit-1" class="accordion-collapse collapse show" data-bs-parent="#unitsList">
+                            
+                            <li>
+                                <a href="../../dashboard/preview-lesson.html" target="_blank" class="item">
+                                    <div class="wrapper-between">
+                                        <div class="flex gap-4">
+                                            <div class="icon-btn tonal success medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+                                            </div>
+
+                                            <div class="wrapper-content">
+                                                <p class="text-body-medium line-clamp line-clamp-1">علم الحركة والحركة</p>
+
+                                                <div class="wrapper-item text-on-background-variant">
+                                                    <p class="text-body-medium">50 دقيقة</p>
+
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" /></svg>
+                                                    </div>
+
+                                                    <p class="text-body-medium">فديو</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="state-layer"></div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="../../dashboard/preview-lesson.html" target="_blank" class="item tonal">
+                                    <div class="wrapper-between">
+                                        <div class="flex gap-4">
+                                            <div class="icon-btn tonal medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-player-play"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" /></svg>
+                                            </div>
+
+                                            <div class="wrapper-content">
+                                                <p class="text-body-medium line-clamp line-clamp-1">علم الحركة والحركة</p>
+
+                                                <div class="wrapper-item">
+                                                    <p class="text-body-medium">50 دقيقة</p>
+
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" /></svg>
+                                                    </div>
+
+                                                    <p class="text-body-medium">فديو</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="state-layer"></div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="../../dashboard/preview-lesson.html" target="_blank" class="item">
+                                    <div class="wrapper-between">
+                                        <div class="flex gap-4">
+                                            <div class="icon-btn outline medium">
+                                                <p class="text-title-medium text-on-background-variant">03</p>
+                                            </div>
+
+                                            <div class="wrapper-content">
+                                                <p class="text-body-medium line-clamp line-clamp-1">علم الحركة والحركة</p>
+
+                                                <div class="wrapper-item text-on-background-variant">
+                                                    <p class="text-body-medium">50 دقيقة</p>
+
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" /></svg>
+                                                    </div>
+
+                                                    <p class="text-body-medium">فديو</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="state-layer"></div>
+                                </a>
+                            </li>
+                            
+                            <li disabled>
+                                <div class="item">
+                                    <div class="wrapper-between">
+                                        <div class="flex gap-4">
+                                            <div class="icon-btn outline medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-lock"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6" /><path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" /><path d="M8 11v-4a4 4 0 1 1 8 0v4" /></svg>
+                                            </div>
+
+                                            <div class="wrapper-content">
+                                                <p class="text-body-medium line-clamp line-clamp-1">علم الحركة والحركة</p>
+
+                                                <div class="wrapper-item text-on-background-variant">
+                                                    <p class="text-body-medium">50 دقيقة</p>
+
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" /></svg>
+                                                    </div>
+
+                                                    <p class="text-body-medium">فديو</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="state-layer"></div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#unit-2">
+                            <p class="text-body-large">الوحدة الثانية</p>
+
+                            <div class="state-layer"></div>
+                        </button>
+
+                        <ul id="unit-2" class="accordion-collapse collapse" data-bs-parent="#unitsList">
+                            <li>
+                                <a href="../../dashboard/preview-lesson.html" target="_blank" class="item">
+                                    <div class="wrapper-between">
+                                        <div class="flex gap-4">
+                                            <div class="icon-btn outline medium">
+                                                <p class="text-title-medium text-on-background-variant">01</p>
+                                            </div>
+
+                                            <div class="wrapper-content">
+                                                <p class="text-body-medium line-clamp line-clamp-1">علم الحركة والحركة</p>
+
+                                                <div class="wrapper-item text-on-background-variant">
+                                                    <p class="text-body-medium">50 دقيقة</p>
+
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" /></svg>
+                                                    </div>
+
+                                                    <p class="text-body-medium">فديو</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="state-layer"></div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../../dashboard/preview-lesson.html" target="_blank" class="item">
+                                    <div class="wrapper-between">
+                                        <div class="flex gap-4">
+                                            <div class="icon-btn outline medium">
+                                                <p class="text-title-medium text-on-background-variant">02</p>
+                                            </div>
+
+                                            <div class="wrapper-content">
+                                                <p class="text-body-medium line-clamp line-clamp-1">علم الحركة والحركة</p>
+
+                                                <div class="wrapper-item text-on-background-variant">
+                                                    <p class="text-body-medium">50 دقيقة</p>
+
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" /></svg>
+                                                    </div>
+
+                                                    <p class="text-body-medium">فديو</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="state-layer"></div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="../../dashboard/preview-lesson.html" target="_blank" class="item">
+                                    <div class="wrapper-between">
+                                        <div class="flex gap-4">
+                                            <div class="icon-btn outline medium">
+                                                <p class="text-title-medium text-on-background-variant">03</p>
+                                            </div>
+
+                                            <div class="wrapper-content">
+                                                <p class="text-body-medium line-clamp line-clamp-1">علم الحركة والحركة</p>
+
+                                                <div class="wrapper-item text-on-background-variant">
+                                                    <p class="text-body-medium">50 دقيقة</p>
+
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" /></svg>
+                                                    </div>
+
+                                                    <p class="text-body-medium">فديو</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="state-layer"></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </aside>
+
+        </article>
+
+    </main>
+
+</body>
+
+</html>
